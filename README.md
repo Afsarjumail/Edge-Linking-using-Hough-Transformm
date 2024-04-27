@@ -35,6 +35,8 @@ img=cv2.imread("eren.png",0)
 img_c=cv2.imread("eren.png",1)
 img_c=cv2.cvtColor(img_c,cv2.COLOR_BGR2RGB)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
+```
+```
 gray = cv2.GaussianBlur(gray,(3,3),0)
 plt.figure(figsize=(13,13))
 plt.subplot(1,2,1)
